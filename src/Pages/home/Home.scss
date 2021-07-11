@@ -1,0 +1,43 @@
+.home-left-image{
+    width: 80%;
+    float: right;
+}
+.home-comp-1{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 50em;
+}
+.home-comp1-innerText{
+    width: 80%;
+    padding-left: 10em;
+}
+.home-comp1-typography1{
+    color: #17BCF7;
+    font-size: 20px;
+}
+.home-comp1-typography2{
+    width: 100%;
+    font-size: 35px;
+}
+
+// InnerServices CSS
+.inner-services{
+    width: 100%;
+    height: 50em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.inner-services-head{
+    font-size: 30px;
+    font-weight: 500;
+}
+.inner-services-head-desc{
+    text-align: center;
+    font-size: 17px;
+    font-weight: 300;
+    width: 45%;
+    margin-top: 2em;
+}

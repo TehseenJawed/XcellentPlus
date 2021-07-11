@@ -1,0 +1,96 @@
+.service-popper {
+    // padding: 15px;
+    z-index: 1000000000000;
+}
+
+.service-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 15em;
+    height: 13em;
+    margin: 15px;
+    color: white;
+    border-radius: 15px;
+}
+
+.service-card-close {
+    width: 17em;
+    height: 15em;
+}
+
+.page-popper {
+    width: 100%;
+}
+
+#mouse-over-popover {
+    overflow: none;
+}
+
+.MuiBackdrop-root {
+    background-color: rgb(0, 0, 0, 0.95) !important;
+    border: none !important;
+    margin-top:53px !important;
+}
+
+.fade-style {
+    outline: none;
+
+}
+
+.MuiGrid-container {
+    justify-content: center;
+}
+
+.slide-menu{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 500px;
+}
+.slide-tab{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    color: #696969;
+    border-bottom:1px solid #3d3d3d ;
+    cursor: pointer;
+    padding: 15px;
+    width: 90%;
+    height: 1.5em;
+    margin-bottom: 0.5em;
+    margin: 0.1em;
+    transition: 0.3s;
+}
+.slide-tab:hover{
+    margin-left: 20px;
+    transition: 0.3s;
+}
+.slide-tab:hover{
+    margin-left: 20px;
+    transition: 0.3s;
+    background-color: #4f8cffed;
+    color: white;
+}
+.flip-card{
+    border: 1px solid #3d3d3d;
+    color: #3d3d3d;
+    border-radius: 15px;
+    margin-left: 15px;
+    width: 95%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40em;
+}
+.service-tab-cross{
+    color: #3d3d3d;
+    float: right;
+    margin-top: -20px;
+    margin-right: 10px;
+}
+.card-body{
+    background-color: white;
+}

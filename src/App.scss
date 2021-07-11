@@ -1,1 +1,12 @@
-@import './styles/config.scss'
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    font-size: 13px;
+    overflow: unset;
+    width: 100%
+}
+@import './styles/config.scss';
+@import './styles/styles.scss';
